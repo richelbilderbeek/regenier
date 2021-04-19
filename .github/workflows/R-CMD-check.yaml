@@ -34,7 +34,7 @@ jobs:
         shell: Rscript {0}
 
       - name: Install PLINK
-        run: ./scripts/install_plink.sh
+        run: ./scripts/install_regenie.sh
 
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
@@ -53,6 +53,6 @@ jobs:
         shell: Rscript {0}
 
       - name: Report
-        run: regenier::do_plink_self_test()
+        run: regenier::do_regenie_self_test()
         shell: Rscript {0}
 

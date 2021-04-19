@@ -2,12 +2,12 @@
 #' @inheritParams default_params_doc
 #' @return TRUE if PLINK is installed, FALSE otherwise
 #' @export
-is_plink_installed <- function(
-  plink_folder = get_plink_folder()
+is_regenie_installed <- function(
+  regenie_folder = get_regenie_folder()
 ) {
   is_installed <- FALSE
   tryCatch({
-    regenier::check_plink_is_installed(plink_folder = plink_folder)
+    regenier::check_regenie_is_installed(regenie_folder = regenie_folder)
     is_installed <- TRUE
   }, error = function(e) {} # nolint indeed ignore error message
   )

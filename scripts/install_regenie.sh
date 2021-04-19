@@ -12,7 +12,7 @@
 #
 cat R/*.R > tempscript.R
 
-echo "install_plink()" >> tempscript.R
+echo "install_regenie()" >> tempscript.R
 sed -i'.orginal' "s/regenier:://g" tempscript.R
 cat tempscript.R
 Rscript tempscript.R

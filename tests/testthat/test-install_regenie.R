@@ -1,11 +1,11 @@
-test_that("un- or install in temp plink folder", {
+test_that("un- or install in temp regenie folder", {
   if (!is_on_ci()) return()
 
   temp_folder <- tempfile()
-  expect_false(is_plink_installed(plink_folder = temp_folder))
-  expect_silent(install_plink(plink_folder = temp_folder))
-  expect_true(is_plink_installed(plink_folder = temp_folder))
-  expect_silent(uninstall_plink(plink_folder = temp_folder))
-  expect_false(is_plink_installed(plink_folder = temp_folder))
+  expect_false(is_regenie_installed(regenie_folder = temp_folder))
+  expect_silent(install_regenie(regenie_folder = temp_folder))
+  expect_true(is_regenie_installed(regenie_folder = temp_folder))
+  expect_silent(uninstall_regenie(regenie_folder = temp_folder))
+  expect_false(is_regenie_installed(regenie_folder = temp_folder))
 })
 

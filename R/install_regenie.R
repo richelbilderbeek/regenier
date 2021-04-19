@@ -2,37 +2,37 @@
 #' @inheritParams default_params_doc
 #' @return Nothing
 #' @export
-install_plink <- function(
-  url = "http://zzz.bwh.harvard.edu/plink/dist/plink-1.07-x86_64.zip",
-  plink_folder = get_plink_folder()
+install_regenie <- function(
+  url = "http://zzz.bwh.harvard.edu/regenie/dist/regenie-1.07-x86_64.zip",
+  regenie_folder = get_regenie_folder()
 ) {
-  testthat::expect_false(is_plink_installed(plink_folder = plink_folder))
+  testthat::expect_false(is_regenie_installed(regenie_folder = regenie_folder))
 
   dir.create(
-    path = plink_folder,
+    path = regenie_folder,
     showWarnings = FALSE,
     recursive = TRUE
   )
-  plink_zip_path <- file.path(plink_folder, "plink.zip")
-  if (!file.exists(plink_zip_path)) {
+  regenie_zip_path <- file.path(regenie_folder, "regenie.zip")
+  if (!file.exists(regenie_zip_path)) {
     utils::download.file(
       url = url,
-      destfile = plink_zip_path,
+      destfile = regenie_zip_path,
       quiet = TRUE
     )
   }
-  testthat::expect_true(file.exists(plink_zip_path))
-  plink_exe_path <- get_plink_exe_path(plink_folder = plink_folder)
-  if (!file.exists(plink_exe_path)) {
+  testthat::expect_true(file.exists(regenie_zip_path))
+  regenie_exe_path <- get_regenie_exe_path(regenie_folder = regenie_folder)
+  if (!file.exists(regenie_exe_path)) {
     utils::unzip(
-      plink_zip_path,
-      exdir = plink_folder
+      regenie_zip_path,
+      exdir = regenie_folder
     )
   }
-  testthat::expect_true(file.exists(plink_exe_path))
-  if (!regenier::is_exe(plink_exe_path)) {
-    Sys.chmod(plink_exe_path, "777")
+  testthat::expect_true(file.exists(regenie_exe_path))
+  if (!regenier::is_exe(regenie_exe_path)) {
+    Sys.chmod(regenie_exe_path, "777")
   }
-  testthat::expect_true(regenier::is_exe(plink_exe_path))
-  testthat::expect_true(is_plink_installed(plink_folder = plink_folder))
+  testthat::expect_true(regenier::is_exe(regenie_exe_path))
+  testthat::expect_true(is_regenie_installed(regenie_folder = regenie_folder))
 }

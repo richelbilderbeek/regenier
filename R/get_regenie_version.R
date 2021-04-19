@@ -2,11 +2,11 @@
 #' @inheritParams default_params_doc
 #' @return the version of PLINK
 #' @export
-get_plink_version <- function(
-  plink_folder = get_plink_folder()
+get_regenie_version <- function(
+  regenie_folder = get_regenie_folder()
 ) {
-  regenier::check_plink_is_installed(plink_folder = plink_folder)
-  text <- regenier::get_plink_help_text()
+  regenier::check_regenie_is_installed(regenie_folder = regenie_folder)
+  text <- regenier::get_regenie_help_text()
   all_matches <- stringr::str_match(
     string = text,
     pattern = "v[:digit:]+\\.[:digit:]+"

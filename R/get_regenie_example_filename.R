@@ -5,17 +5,17 @@
 #'   Will \link{stop} if the file does not exist
 #' @export
 #' @examples
-#' if (is_plink_installed()) {
-#'   get_plink_example_filename("test.map")
-#'   get_plink_example_filename("test.ped")
+#' if (is_regenie_installed()) {
+#'   get_regenie_example_filename("test.map")
+#'   get_regenie_example_filename("test.ped")
 #' }
-get_plink_example_filename <- function(
+get_regenie_example_filename <- function(
   example_filename,
-  plink_folder = get_plink_folder()
+  regenie_folder = get_regenie_folder()
 ) {
-  check_plink_is_installed(plink_folder = plink_folder)
+  check_regenie_is_installed(regenie_folder = regenie_folder)
   full_path <- file.path(
-    dirname(get_plink_exe_path(plink_folder = plink_folder)),
+    dirname(get_regenie_exe_path(regenie_folder = regenie_folder)),
     example_filename
   )
   if (!file.exists(full_path)) {

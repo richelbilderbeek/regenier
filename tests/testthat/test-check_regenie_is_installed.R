@@ -1,10 +1,10 @@
 test_that("use", {
-  if (is_plink_installed()) {
-    expect_silent(check_plink_is_installed())
+  if (is_regenie_installed()) {
+    expect_silent(check_regenie_is_installed())
   }
 
   expect_error(
-    check_plink_is_installed(plink_folder = tempfile()),
+    check_regenie_is_installed(regenie_folder = tempfile()),
     "PLINK is not installed"
   )
 })

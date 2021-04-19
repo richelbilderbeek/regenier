@@ -5,6 +5,6 @@ test_that("use on text file", {
 })
 
 test_that("use on PLINK exe file", {
-  if (!is_plink_installed()) return()
-  expect_true(is_exe(filename = get_plink_exe_path()))
+  if (!is_regenie_installed()) return()
+  expect_true(is_exe(filename = get_regenie_exe_path()))
 })

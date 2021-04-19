@@ -2,11 +2,11 @@
 #' @inheritParams default_params_doc
 #' @return the text of the PLINK help file
 #' @export
-get_plink_help_text <- function(
-  plink_folder = get_plink_folder()
+get_regenie_help_text <- function(
+  regenie_folder = get_regenie_folder()
 ) {
-  regenier::run_plink(
+  regenier::run_regenie(
     args = "--help",
-    plink_folder = plink_folder
+    regenie_folder = regenie_folder
   )
 }
