@@ -2,16 +2,16 @@
 % Please edit documentation in R/uninstall_regenie.R
 \name{uninstall_regenie}
 \alias{uninstall_regenie}
-\title{Uninstall PLINK}
+\title{Uninstall REGENIE}
 \usage{
 uninstall_regenie(regenie_folder = get_regenie_folder())
 }
 \arguments{
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
 Nothing
 }
 \description{
-Uninstall PLINK
+Uninstall REGENIE
 }

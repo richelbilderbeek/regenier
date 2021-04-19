@@ -1,6 +1,6 @@
-#' Get the text of the PLINK help file
+#' Get the text of the REGENIE help file
 #' @inheritParams default_params_doc
-#' @return the text of the PLINK help file
+#' @return the text of the REGENIE help file
 #' @export
 get_regenie_help_text <- function(
   regenie_folder = get_regenie_folder()

@@ -33,7 +33,7 @@ jobs:
           remotes::install_github("MangoTheCat/goodpractice")
         shell: Rscript {0}
 
-      - name: Install PLINK
+      - name: Install REGENIE
         run: ./scripts/install_regenie.sh
 
       - name: Check

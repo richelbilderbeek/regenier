@@ -1,4 +1,4 @@
-#' Do a minimal PLINK self test
+#' Do a minimal REGENIE self test
 #' @inheritParams default_params_doc
 #' @return nothing. Will stop with an error message if the self-test fails
 #' @export

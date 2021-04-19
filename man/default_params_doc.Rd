@@ -8,9 +8,9 @@ documentation.}
 default_params_doc(regenie_folder, url, verbose)
 }
 \arguments{
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 
-\item{url}{PLINK download URL}
+\item{url}{REGENIE download URL}
 
 \item{verbose}{set to TRUE for more output}
 }

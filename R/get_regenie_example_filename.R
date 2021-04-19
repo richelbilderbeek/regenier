@@ -1,7 +1,7 @@
-#' Get the path to a PLINK example file
+#' Get the path to a REGENIE example file
 #' @inheritParams default_params_doc
 #' @param example_filename name of the example file
-#' @return the path to a PLINK example file, if it exists.
+#' @return the path to a REGENIE example file, if it exists.
 #'   Will \link{stop} if the file does not exist
 #' @export
 #' @examples

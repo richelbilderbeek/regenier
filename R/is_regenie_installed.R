@@ -1,6 +1,6 @@
-#' Determine if PLINK is installed
+#' Determine if REGENIE is installed
 #' @inheritParams default_params_doc
-#' @return TRUE if PLINK is installed, FALSE otherwise
+#' @return TRUE if REGENIE is installed, FALSE otherwise
 #' @export
 is_regenie_installed <- function(
   regenie_folder = get_regenie_folder()

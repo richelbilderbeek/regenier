@@ -2,16 +2,16 @@
 % Please edit documentation in R/get_regenie_exe_path.R
 \name{get_regenie_exe_path}
 \alias{get_regenie_exe_path}
-\title{Get the path to the default PLINK executable as used by regenier}
+\title{Get the path to the default REGENIE executable as used by regenier}
 \usage{
 get_regenie_exe_path(regenie_folder = get_regenie_folder())
 }
 \arguments{
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
-path to the default PLINK executable  as used by regenier
+path to the default REGENIE executable  as used by regenier
 }
 \description{
-Get the path to the default PLINK executable as used by regenier
+Get the path to the default REGENIE executable as used by regenier
 }

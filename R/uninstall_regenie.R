@@ -1,4 +1,4 @@
-#' Uninstall PLINK
+#' Uninstall REGENIE
 #' @inheritParams default_params_doc
 #' @return Nothing
 #' @export

@@ -2,16 +2,16 @@
 % Please edit documentation in R/is_regenie_installed.R
 \name{is_regenie_installed}
 \alias{is_regenie_installed}
-\title{Determine if PLINK is installed}
+\title{Determine if REGENIE is installed}
 \usage{
 is_regenie_installed(regenie_folder = get_regenie_folder())
 }
 \arguments{
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
-TRUE if PLINK is installed, FALSE otherwise
+TRUE if REGENIE is installed, FALSE otherwise
 }
 \description{
-Determine if PLINK is installed
+Determine if REGENIE is installed
 }

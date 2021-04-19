@@ -2,7 +2,7 @@
 % Please edit documentation in R/install_regenie.R
 \name{install_regenie}
 \alias{install_regenie}
-\title{Determine if PLINK is installed}
+\title{Determine if REGENIE is installed}
 \usage{
 install_regenie(
   url = "http://zzz.bwh.harvard.edu/regenie/dist/regenie-1.07-x86_64.zip",
@@ -10,13 +10,13 @@ install_regenie(
 )
 }
 \arguments{
-\item{url}{PLINK download URL}
+\item{url}{REGENIE download URL}
 
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
 Nothing
 }
 \description{
-Determine if PLINK is installed
+Determine if REGENIE is installed
 }

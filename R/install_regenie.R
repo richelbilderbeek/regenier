@@ -1,4 +1,4 @@
-#' Determine if PLINK is installed
+#' Determine if REGENIE is installed
 #' @inheritParams default_params_doc
 #' @return Nothing
 #' @export

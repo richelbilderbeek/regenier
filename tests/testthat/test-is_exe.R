@@ -4,7 +4,7 @@ test_that("use on text file", {
   expect_false(is_exe(filename = temp_filename))
 })
 
-test_that("use on PLINK exe file", {
+test_that("use on REGENIE exe file", {
   if (!is_regenie_installed()) return()
   expect_true(is_exe(filename = get_regenie_exe_path()))
 })

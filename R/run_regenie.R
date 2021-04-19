@@ -1,7 +1,7 @@
-#' Run PLINK from arguments
+#' Run REGENIE from arguments
 #' @inheritParams default_params_doc
-#' @param args arguments for the PLINK executable
-#' @return the text that PLINK returns
+#' @param args arguments for the REGENIE executable
+#' @return the text that REGENIE returns
 #' @export
 run_regenie <- function(
   args,

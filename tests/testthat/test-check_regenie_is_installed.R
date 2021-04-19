@@ -5,6 +5,6 @@ test_that("use", {
 
   expect_error(
     check_regenie_is_installed(regenie_folder = tempfile()),
-    "PLINK is not installed"
+    "REGENIE is not installed"
   )
 })

@@ -1,7 +1,7 @@
 #' This function does nothing. It is intended to inherit is parameters'
 #' documentation.
-#' @param regenie_folder folder where PLINK is installed
-#' @param url PLINK download URL
+#' @param regenie_folder folder where REGENIE is installed
+#' @param url REGENIE download URL
 #' @param verbose set to TRUE for more output
 #' @author Richèl J.C. Bilderbeek
 #' @note This is an internal function, so it should be marked with

@@ -2,18 +2,18 @@
 % Please edit documentation in R/run_regenie.R
 \name{run_regenie}
 \alias{run_regenie}
-\title{Run PLINK from arguments}
+\title{Run REGENIE from arguments}
 \usage{
 run_regenie(args, regenie_folder = get_regenie_folder())
 }
 \arguments{
-\item{args}{arguments for the PLINK executable}
+\item{args}{arguments for the REGENIE executable}
 
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
-the text that PLINK returns
+the text that REGENIE returns
 }
 \description{
-Run PLINK from arguments
+Run REGENIE from arguments
 }

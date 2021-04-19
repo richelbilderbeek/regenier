@@ -5,13 +5,13 @@ Branch   |[![GitHub Actions logo](man/figures/GitHubActions.png)](https://github
 `master` |![R-CMD-check](https://github.com/richelbilderbeek/regenier/workflows/R-CMD-check/badge.svg?branch=master)   |[![codecov.io](https://codecov.io/github/richelbilderbeek/regenier/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/regenier/branch/master)
 `develop`|![R-CMD-check](https://github.com/richelbilderbeek/regenier/workflows/R-CMD-check/badge.svg?branch=develop)  |[![codecov.io](https://codecov.io/github/richelbilderbeek/regenier/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/regenier/branch/develop)
 
-Work with [PLINK](http://zzz.bwh.harvard.edu/regenie/) from R
+Work with [REGENIE](http://zzz.bwh.harvard.edu/regenie/) from R
 
 ## Features
 
- * [x] Check if PLINK is installed, stop if not
- * [x] Determine if PLINK is installed, yes/no
- * [x] Get the help text of PLINK
- * [x] Get the version of PLINK
- * [x] Install PLINK
- * [x] Uninstall PLINK
+ * [x] Check if REGENIE is installed, stop if not
+ * [x] Determine if REGENIE is installed, yes/no
+ * [x] Get the help text of REGENIE
+ * [x] Get the version of REGENIE
+ * [x] Install REGENIE
+ * [x] Uninstall REGENIE

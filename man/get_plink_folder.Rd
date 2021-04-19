@@ -2,13 +2,13 @@
 % Please edit documentation in R/get_regenie_folder.R
 \name{get_regenie_folder}
 \alias{get_regenie_folder}
-\title{Get the path to the default PLINK folder as used by regenier}
+\title{Get the path to the default REGENIE folder as used by regenier}
 \usage{
 get_regenie_folder()
 }
 \value{
-path to the default PLINK folder as used by regenier
+path to the default REGENIE folder as used by regenier
 }
 \description{
-Get the path to the default PLINK folder as used by regenier
+Get the path to the default REGENIE folder as used by regenier
 }

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Installs PLINK using the R code in the 'regenier' package
+# Installs REGENIE using the R code in the 'regenier' package
 #
 # Because the R code in the package uses 'regenier::' in calling
 # its functions, this script removes these prefixes.

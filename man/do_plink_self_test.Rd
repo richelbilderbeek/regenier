@@ -2,16 +2,16 @@
 % Please edit documentation in R/do_regenie_self_test.R
 \name{do_regenie_self_test}
 \alias{do_regenie_self_test}
-\title{Do a minimal PLINK self test}
+\title{Do a minimal REGENIE self test}
 \usage{
 do_regenie_self_test(regenie_folder = get_regenie_folder())
 }
 \arguments{
-\item{regenie_folder}{folder where PLINK is installed}
+\item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
 nothing. Will stop with an error message if the self-test fails
 }
 \description{
-Do a minimal PLINK self test
+Do a minimal REGENIE self test
 }

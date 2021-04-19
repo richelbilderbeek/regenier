@@ -1,6 +1,6 @@
-#' Get the version of PLINK
+#' Get the version of REGENIE
 #' @inheritParams default_params_doc
-#' @return the version of PLINK
+#' @return the version of REGENIE
 #' @export
 get_regenie_version <- function(
   regenie_folder = get_regenie_folder()
