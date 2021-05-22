@@ -1,9 +1,13 @@
-#' Determine if REGENIE is installed
+#' Install REGENIE
+#'
+#' Install both the pre-built executable of REGENIE,
+#' as well as its source code
 #' @inheritParams default_params_doc
 #' @return Nothing
 #' @export
 install_regenie <- function(
-  url = get_regenie_download_url(),
+  source_url = get_regenie_source_download_url(),
+  exe_url = get_regenie_exe_download_url(),
   regenie_folder = get_regenie_folder()
 ) {
   testthat::expect_false(is_regenie_installed(regenie_folder = regenie_folder))
@@ -13,6 +17,9 @@ install_regenie <- function(
     showWarnings = FALSE,
     recursive = TRUE
   )
+
+  TODO: Need to download both the EXE and the source here.
+
   regenie_zip_path <- file.path(regenie_folder, "regenie.zip")
   if (!file.exists(regenie_zip_path)) {
     utils::download.file(

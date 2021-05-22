@@ -5,14 +5,12 @@
 \title{Determine if REGENIE is installed}
 \usage{
 install_regenie(
-  url = get_regenie_download_url(),
+  source_url = get_regenie_source_download_url(),
+  exe_url = get_regenie_exe_download_url(),
   regenie_folder = get_regenie_folder()
 )
 }
 \arguments{
-\item{url}{REGENIE download URL,
-as can be obtained by \link{get_regenie_download_url}}
-
 \item{regenie_folder}{folder where REGENIE is installed}
 }
 \value{
