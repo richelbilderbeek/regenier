@@ -10,7 +10,8 @@ default_params_doc(regenie_folder, url, verbose)
 \arguments{
 \item{regenie_folder}{folder where REGENIE is installed}
 
-\item{url}{REGENIE download URL}
+\item{url}{REGENIE download URL,
+as can be obtained by \link{get_regenie_download_url}}
 
 \item{verbose}{set to TRUE for more output}
 }

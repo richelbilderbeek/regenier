@@ -3,7 +3,7 @@
 #' @return Nothing
 #' @export
 install_regenie <- function(
-  url = "http://zzz.bwh.harvard.edu/regenie/dist/regenie-1.07-x86_64.zip",
+  url = get_regenie_download_url(),
   regenie_folder = get_regenie_folder()
 ) {
   testthat::expect_false(is_regenie_installed(regenie_folder = regenie_folder))

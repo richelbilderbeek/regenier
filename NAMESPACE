@@ -2,6 +2,7 @@
 
 export(check_regenie_is_installed)
 export(do_regenie_self_test)
+export(get_regenie_download_url)
 export(get_regenie_example_filename)
 export(get_regenie_exe_path)
 export(get_regenie_folder)

@@ -5,12 +5,13 @@
 \title{Determine if REGENIE is installed}
 \usage{
 install_regenie(
-  url = "http://zzz.bwh.harvard.edu/regenie/dist/regenie-1.07-x86_64.zip",
+  url = get_regenie_download_url(),
   regenie_folder = get_regenie_folder()
 )
 }
 \arguments{
-\item{url}{REGENIE download URL}
+\item{url}{REGENIE download URL,
+as can be obtained by \link{get_regenie_download_url}}
 
 \item{regenie_folder}{folder where REGENIE is installed}
 }
